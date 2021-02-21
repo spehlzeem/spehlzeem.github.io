@@ -1,7 +1,7 @@
 ---
 layout: recipe
 featured: true
-food_image: "/images/liquidgrass.jpg" 
+food_image: "images/liquidgrass.JPG" 
 title: liquid grasss
 ingredients: [matcha powder, water]
 preptime: 1 minutes
