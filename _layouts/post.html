@@ -1,0 +1,59 @@
+--- 
+layout: wrapper
+--- 
+<style type="text/css">
+    .sidenav{
+        
+        background-image: url({{page.big_image}}),linear-gradient(rgb(182, 182, 182),rgb(114, 114, 114));
+    }
+    @media (max-width: 600px){  
+     .sidenav{ /*  site.main_image does work within external css*/
+            background-image: url({{page.small_image}}),linear-gradient(rgb(182, 182, 182),rgb(114, 114, 114));
+        }
+    }   
+</style>
+<div class="container">
+    <aside class="sidenav">
+        <div class="sidenav-LabelContainer">
+            <a href="{{ "/" | relative_url }}" id="navhead">{{site.title | escape}}</a>
+            <a class="sidenav-link" href="/">Posts</a>
+            <a class="sidenav-link" href="/recipes">Recipes</a>
+            <a class="sidenav-link" href="/about">About</a>
+            <p id="collapse">&#9776</p>
+        </div>
+       
+    </aside>
+
+    <main>
+        <header>
+            <h1  class="article-title">{{page.title}}</h1>
+            <h3 class="post-date">
+             {{ page.date | date_to_long_string}}
+            </h3>
+        </header>
+        <article>
+            {{content}}
+        </article>
+        <footer>
+            <a id="top-btn" href="#top">top</a>
+        </footer>
+    </main>
+
+    <script>
+        const hideNav = () =>{
+            let links = document.querySelectorAll(".sidenav-link");
+            if(links[0].style.display === "none"){
+                for (let link of links){
+                    link.style.display = "block";
+                }
+            }else{
+                for (let link of links){
+                    link.style.display = "none";
+                }
+            }
+        }
+        let btn = document.getElementById('collapse');
+        btn.addEventListener('click',hideNav );
+    </script>
+    
+</div>

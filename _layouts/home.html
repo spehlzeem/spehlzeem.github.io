@@ -1,0 +1,102 @@
+--- 
+layout: wrapper
+--- 
+<style type="text/css">
+    .sidenav{
+        
+        background-image: url({{page.big_image}}),linear-gradient(rgb(182, 182, 182),rgb(114, 114, 114));
+    }
+    @media (max-width: 600px){  
+     .sidenav{ /*  site.main_image does work within external css*/
+        background-image: url({{page.small_image}}),linear-gradient(rgb(182, 182, 182),rgb(114, 114, 114));
+        }
+    }   
+</style>
+<div class="container">
+    <aside class="sidenav">
+        <div class="sidenav-LabelContainer">
+            <a href="{{ "/" | relative_url }}" id="navhead">{{site.title | escape}}</a>
+            <a class="sidenav-link" href="/">Posts</a>
+            <a class="sidenav-link" href="/recipes">Recipes</a>
+            <a class="sidenav-link" href="/about">About</a>
+            <p id="collapse">&#9776</p>
+        </div>
+       
+    </aside>
+
+    <main>
+        <header>
+            <h1  class="article-title">
+              {{site.title}} 
+            </h1>
+            <hr>
+        </header>
+       
+        <article>
+                <!-- 
+                    Here is the main paginator logic called.
+                    All calls to site.posts should be replaced by paginator.posts 
+                -->
+                {% for post in paginator.posts %}
+                  <div class="post-preview">
+                    <h2 class="post-header">
+                      <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+                      <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+                      {% for tag in post.tags %}
+                      <span class="tags">{{tag}}</span>
+                      {% endfor %}
+                    </h2>
+                    <p class="post-preview-text">
+                        {{post.content | split:'<!--break-->' | first}}
+                    {% if post.content contains '<!--break-->' %}
+                   <span><a id="arrow" href="{{ post.url | relative_url }}">&rarr;</a></span>
+                    {% endif %}
+                    </p>
+                </div>
+                {% endfor %}
+             
+              
+              <!-- 
+                Showing buttons to move to the next and to the previous list of posts (pager buttons).
+              -->
+              <a id="top-btn" href="#top">top</a>
+        </article>
+        <div>
+            {% if paginator.total_pages > 1 %}
+              
+                  {% if paginator.previous_page %}
+                  
+                     <a class="btn" style="float: left"  href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
+                  
+                  {% endif %}
+                  {% if paginator.next_page %}
+                  
+                     <a class="btn" style="float: right" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
+                  
+                  {% endif %}
+                
+              {% endif %}
+        </div>
+        <footer>
+            
+        </footer>
+    </main>
+
+    <script>
+        const hideNav = () =>{
+            let links = document.querySelectorAll(".sidenav-link");
+            if(links[0].style.display === "none"){
+                for (let link of links){
+                    link.style.display = "block";
+                }
+            }else{
+                for (let link of links){
+                    link.style.display = "none";
+                }
+            }
+        }
+        let btn = document.getElementById('collapse');
+        btn.addEventListener('click',hideNav );
+    </script>
+    
+</div>

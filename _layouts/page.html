@@ -1,0 +1,69 @@
+--- 
+layout: wrapper
+--- 
+<style type="text/css">
+    .page-inset{
+        background: url({{page.image}}) 50% 50% no-repeat;
+    }
+    .sidenav{
+        background-image: url({{page.big_image}}),linear-gradient(rgb(182, 182, 182),rgb(114, 114, 114));
+    }
+    @media (max-width: 600px){  
+     .sidenav{ /*  site.main_image does work within external css*/
+            background-image: url({{page.small_image}}),linear-gradient(rgb(182, 182, 182),rgb(114, 114, 114));
+        }
+    }   
+</style>
+<div class="container">
+    <aside class="sidenav">
+        <div class="sidenav-LabelContainer">
+            <a href="{{ "/" | relative_url }}" id="navhead">{{site.title | escape}}</a>
+            <a class="sidenav-link" href="/">Posts</a>
+            <a class="sidenav-link" href="#">Recipes</a>
+            <a class="sidenav-link" href="/about">About</a>
+            <p id="collapse">&#9776</p>
+        </div>
+       
+    </aside>
+
+    <main>
+        <header>
+            <h1  class="article-title">
+             {{site.title}} <span id="me"></span>
+            </h1>
+            <hr>
+        </header>
+       
+        <article class="page-container">
+            <div class="page-square" style="color:white">
+                <div>
+                <span class="page-inset" role="img" aria-label="{{page.altimage}}"></span>
+                 </div>
+                <div class="page-text">
+                {{content}}
+                </div>
+            </div>
+        </article>
+        <footer>
+            Contact: {{site.email}}
+        </footer>
+    </main>
+
+    <script>
+        const hideNav = () =>{
+            let links = document.querySelectorAll(".sidenav-link");
+            if(links[0].style.display === "none"){
+                for (let link of links){
+                    link.style.display = "block";
+                }
+            }else{
+                for (let link of links){
+                    link.style.display = "none";
+                }
+            }
+        }
+        let btn = document.getElementById('collapse');
+        btn.addEventListener('click',hideNav );
+    </script>
+    
+</div>

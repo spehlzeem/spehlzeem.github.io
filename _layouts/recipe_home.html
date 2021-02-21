@@ -1,0 +1,89 @@
+--- 
+layout: wrapper
+--- 
+<style type="text/css">
+ ul li{
+    /* display: block; */
+    padding-top: 10px;
+    list-style-type:none;
+    padding-bottom: 10px;
+}
+img {
+  
+  box-shadow:0 0 10px 2px #000000;
+  margin-left:auto;
+  margin-right:auto; 
+  overflow:hidden;
+  width: 100%;
+  height:auto;
+}
+
+ul{
+    
+    list-style-type:none;
+    -webkit-columns: 2;
+    -moz-columns: 2; 
+    columns: 2;
+    /* list-style-position: inside; */
+}
+
+
+
+
+</style>
+<div class="container">
+    <aside class="sidenav">
+        <div class="sidenav-LabelContainer">
+            <a href="{{ "/" | relative_url }}" id="navhead">{{site.title | escape}}</a>
+            <a class="sidenav-link" href="/">Posts</a>
+            <a class="sidenav-link" href="/recipes">Recipes</a>
+            <a class="sidenav-link" href="/about">About</a>
+            <p id="collapse">&#9776</p>
+        </div>
+       
+    </aside>
+
+    <main>
+        <header>
+            <h1  class="article-title">
+              {{site.title}} 
+            </h1>
+            <hr>
+        </header>
+       
+        <article>
+            {% assign featured_recipes = site.recipes | where: 'featured', "true" %}
+            <ul>
+                {% for recipe in featured_recipes limit:8 %}
+                  
+            <li> 
+                <a href="{{ recipe.url }}"><img src="{{recipe.food_image}}"/> </a> 
+                
+                
+            </li>
+                {% endfor %}
+              </ul>
+               </article>
+        <footer>
+            
+        </footer>
+    </main>
+
+    <script>
+        const hideNav = () =>{
+            let links = document.querySelectorAll(".sidenav-link");
+            if(links[0].style.display === "none"){
+                for (let link of links){
+                    link.style.display = "block";
+                }
+            }else{
+                for (let link of links){
+                    link.style.display = "none";
+                }
+            }
+        }
+        let btn = document.getElementById('collapse');
+        btn.addEventListener('click',hideNav );
+    </script>
+    
+</div>

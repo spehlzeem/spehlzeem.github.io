@@ -1,0 +1,172 @@
+--- 
+layout: wrapper
+---
+
+<style type="text/css">
+img {
+  
+  box-shadow:0 0 10px 2px #000000;
+  margin-left:auto;
+  margin-right:auto;
+  overflow:hidden;
+  width: 100%;
+  height:auto;
+}
+    
+#recipe-info{
+    border-top: 2px white solid;
+    
+}
+ol li{
+    list-style:decimal;
+    list-style-position: inside;
+}
+ul li{
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+blockquote{
+    margin-top: 2vh;
+    color: rgba(255, 255, 255 );
+    text-decoration: none;
+    font-size: 1.5rem; 
+    max-width:300px;
+}
+.recipe{
+    display: flex; 
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+    width: 100%;
+    background-color:rgb(220, 220, 220);
+}  
+#ingredients{
+    
+    margin-top:10px;
+}
+#ingredients ul{
+
+    
+    list-style-type: disc;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+    columns: 2;
+    list-style-position: inside;
+
+}
+    .sidenav{
+        background-image: url({{page.big_image}}),linear-gradient(rgb(182, 182, 182),rgb(114, 114, 114));
+    }
+    @media (max-width: 600px){  
+     .sidenav{ /*  site.main_image does work within external css*/
+            background-image: url({{page.small_image}}),linear-gradient(rgb(182, 182, 182),rgb(114, 114, 114));
+        }
+    blockquote{
+        color: rgba(255, 255, 255 );
+        display:block;
+        width: 200px;
+        font-size: 1.5rem; 
+        float:right;
+    }
+    
+    }   
+</style>
+<div class="container">
+    <aside class="sidenav">
+        <blockquote cite="{{page.url}}">"{{page.note}}"</blockquote>
+        <div class="sidenav-LabelContainer">
+            <a href="{{ "/" | relative_url }}" id="navhead">{{site.title | escape}}</a>
+            <a class="sidenav-link" href="/">Posts</a>
+            <a class="sidenav-link" href="/recipes">Recipes</a>
+            <a class="sidenav-link" href="/about">About</a>
+            <p id="collapse">&#9776</p>
+        </div>
+       
+    </aside>
+
+    <main style="margin-top: 10px;">
+       
+       
+        <article class ="recipe">
+            
+                
+                <header>
+                    <h1  class="article-title">
+                        {{page.title}} 
+                    </h1>
+                </header>
+           
+              
+               <div class="page-recipe-image-container">
+                   <div class="page-left">
+                    <ul>
+                        <li id="recipe-info">Cooktime:</li>
+                        <li>{{page.cooktime}}</li>
+                        <li id="recipe-info"> Category:</li>
+                        <li>{{page.category}}</li>
+                        <li id="recipe-info">Cuisine:</li>
+                        <li>{{page.cuisine}}</li>
+                    </ul>
+                   </div>
+                   <div class="page-center">
+                        <img src="{{page.food_image}}" alt="photo of {{page.title}}"/>
+                   </div>
+                   <div class="page-right">
+                    <ul>
+                        <li id="recipe-info">Preptime:</li>
+                        <li>{{page.preptime}}</li>
+                        <li id="recipe-info"> Fuel:</li>
+                        <li>{{page.fuel}}</li>
+                        <li id="recipe-info">Sport:</li>
+                        <li>{{page.sport}}</li>
+                    </ul>
+                   </div>
+
+               </div>
+            <div style="border: 1px inset white; margin:10px;">
+            <div id="ingredients" >
+                <h3 >Ingredients:</h3>
+                <ul >
+                {% for ingredient in page.ingredients%}
+                    <li>{{ingredient}}</li>
+                {% endfor %}
+                 </ul>
+            </div>  
+
+            <div>
+                <h3>Method:</h3>
+                <ol >
+                {% for method in page.methods%}
+                    <li>{{method}}</li>
+                {% endfor %}
+                 </ol>
+            </div>
+        </div>
+              
+          
+            
+        </article>
+        <footer>
+            Contact: {{site.email}}
+        </footer>
+    </main>
+
+    <script>
+        const hideNav = () =>{
+            let links = document.querySelectorAll(".sidenav-link");
+            if(links[0].style.display === "none"){
+                for (let link of links){
+                    link.style.display = "block";
+                }
+            }else{
+                for (let link of links){
+                    link.style.display = "none";
+                }
+            }
+        }
+        let btn = document.getElementById('collapse');
+        btn.addEventListener('click',hideNav );
+    </script>
+    
+</div>
