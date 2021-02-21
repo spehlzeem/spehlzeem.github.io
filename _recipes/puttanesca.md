@@ -1,7 +1,7 @@
 ---
 layout: recipe
 featured: true
-food_image: "/images/puttanesca.jpg" 
+food_image: "images/puttanesca.jpg" 
 title: Puttanesca Sauce
 ingredients: [green olives, black olives, canned whole plum tomatoes, garlic, anchovies, canned artichokes*, onion, basil, capers]
 preptime: 10 minutes
