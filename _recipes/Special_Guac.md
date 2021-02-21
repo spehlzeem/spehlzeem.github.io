@@ -1,7 +1,7 @@
 ---
 layout: recipe
 featured: true
-food_image: "images/guac.JPG"
+food_image: "/images/guac.JPG"
 title: Guacamole 
 ingredients: [avocado , jalopeño, cilantro, garlic, lime, grilled pineapple, tomato, red onion ]
 preptime: 10 minutes
