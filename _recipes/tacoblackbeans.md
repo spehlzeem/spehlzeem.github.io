@@ -1,7 +1,7 @@
 ---
 layout: recipe
 featured: true
-food_image: "/images/tacobeans.jpg" 
+food_image: "images/tacobeans.jpg" 
 title: chipotle black beans 
 ingredients: [canned black beans, chipotle peppers in adobo, garlic, cilantro, oil, water]
 preptime: 5 minutes
