@@ -1,7 +1,7 @@
 ---
 layout: recipe
 featured: true
-food_image: "images/melon.jpg" 
+food_image: "/images/melon.JPG" 
 title: Watermelon and Feta Salad 
 ingredients: [small Watermelon, feta, mint, tomato, cucumber, salt, lemon]
 preptime: 10 minutes
