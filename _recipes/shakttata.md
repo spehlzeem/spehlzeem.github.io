@@ -1,7 +1,7 @@
 ---
 layout: recipe
 featured: true
-food_image: "images/shakshuka.jpg" 
+food_image: "/images/shakshuka.JPG" 
 title: Shakshuka Frittata (shakatta)
 ingredients: [eggs, whole milk, basil, tomatoes, canned whole peeled tomatoes, oregano, coriander, cummin, paprika, onion , garlic]
 preptime: 1 minutes
