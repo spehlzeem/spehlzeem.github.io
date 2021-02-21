@@ -1,7 +1,7 @@
 ---
 layout: recipe
 featured: true
-food_image: "/images/thightikka.JPG" 
+food_image: "images/thightikka.JPG" 
 title: Reverse Sear Tikka Chicken Thighs 
 ingredients: [Chicken thighs, oil, whole milk yogurt, tikka spice blend, tomatoes, salt,lemon]
 preptime: 50 minutes
