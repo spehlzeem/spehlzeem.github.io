@@ -6,12 +6,13 @@ date:   2021-02-19 10:02:26 -0600
 categories: misc
 tags: [quick read, introduction]
 ---
-# What we foster here
-
+# What we foster here <br>
+<br>
 Spehlzeem is a collaboration amongst two friends. The intended use-case of this website was ambiguous from the start, to this end, we’ve found ourselves idling. I’ll walk you through our predicament, starting with the conception of SpehlZeem.  In the beginning, two friends worthy of each other’s admiration believed that by combining thought processes they could achieve transcendence from their mutual meat suits. Currently, I still reside in my meat suit (I’m not with Zeem, so I’m not sure of his status). Originally, we intended this site to house some dialectical writings that resembled the way we communicate though more focused. However, you may notice that we have one single post (this one), while we’ve instead been able to populate the recipes section of this site… our interests dictate priorities. A note is included to explain our recipe philosophy. Anyway, with time our posts will be places to divulge our latest interests and obsessions. We are creative people, you will find topics ranging from tech, cooking, self improvement, journal entries, and whatever else ends up be pushed. 
 
 <!--break-->
+<br>
 ## An explanation of our recipes 
-
+<br>
 And you may notice how sparsely developed our recipe write-ups are. This reflects our mutual disgust for front-heavy, rambling, advertisement packed, convoluted, and frankly constraining recipe blogs.  We desire a recipe, not information pertaining to the author’s exposition of their life story while indulging the user with zealous detail of their drop-dead amazing cookie recipe. Frankly, we don’t care. In accordance with our beliefs, we reflect our hatred of bloated recipes with our simplistic note card style. Our recipes are original though they often are too vague to even consider plagiarism. Often, we take an existing idea and either simplify (can be demeaning to a traditional dish, though we like to think that the interpretation acts as a conduit sharing the cultural components to a wider audience) or introduce variation to the dish. 
 Most of the time our recipes lack measurements. This reflects our understanding that these recipes serve purely as inspiration and documentation of an idea rather than an exhausting attempt to schematize everything out of the joy we get from cooking. Another reason for our recipes is to be able to catalog our creations in a working database. We’re curious to see what we cook up in the years to come.
