@@ -5,4 +5,4 @@ permalink: /about/
 image: "/images/ae.jpg"
 ---
 
-SpehlZeem is the covalent bond formed through the sharing of intellectual electrons.  We excite learning.
+SpehlZeem is the covalent bond formed through the sharing of intellectual electrons.
