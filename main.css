@@ -22,6 +22,10 @@ a, p, h1,h2,h3,h4,h5,h6,ul li,ol li{
 a,p,ul li,ol li{
     font-size: 1.1rem;
 }
+blockquote{
+    font-size: 1rem;
+    color:#9b9b9b;
+}
 h1, h2, h3, h4, h5, h6{
     font-weight: lighter;
     color: rgb(88, 88, 88);
