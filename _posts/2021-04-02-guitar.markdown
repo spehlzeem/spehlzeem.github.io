@@ -21,17 +21,18 @@ I feel obliged to address my original intent (providing some sort of analysis) w
 
 The big two, Amos Tversky and Daniel Kahneman, were  critical psychologists in dismantling the belief that humans are rational decision makers. They contributed much to both fields, psychology and behavioral economics, I implore you to read their literature. Back to my limited scope, I was taught in high school economics that a core assumption of economic models was that humans are rational decision makers. A core assumption of economic  models (anything regarding consumer choice) embedded the belief that humans make completely rational choices and maximize utility through complete information. Imagine a computer program doing some sort of optimization algorithm to determine the best solution in an array of options. Research done by Daniel Kahneman, Richard Thaler, and Amos Tversky have vastly ripped apart this tenant of economics. Humans are not rational decision makers nor creatures of optimization.<br>
 <br>
-> However, some of us get closer to the computer program model than others: 
-> maximizers. Maximizers, like the name suggest, seek an optimal solution by 
-> investing more thought/energy into mental accounting, optimizing different 
-> variables important in making  educated choices: information, number of options, 
-> preferences. These are the people who spend a year before a  purchase, like a used 
-> car, investigating the Kelly Blue Book and reading old consumer reports to narrow 
-> down a field of options, before even embarking on finding vendors and the 
-> subsequent further optimization of price. Maximizers derive some joy in the process 
-> of finding a deal, but later the exhaustive research in making the original 
-> purchase  increases a feeling of regret as reflection raises doubts regarding the 
-> superiority of the purchase as new information eventually surfaces.<br>
+<blockquote>However, some of us get closer to the computer program model than others: 
+maximizers. Maximizers, like the name suggest, seek an optimal solution by 
+investing more thought/energy into mental accounting, optimizing different 
+variables important in making  educated choices: information, number of options, 
+preferences. These are the people who spend a year before a  purchase, like a used 
+car, investigating the Kelly Blue Book and reading old consumer reports to narrow 
+down a field of options, before even embarking on finding vendors and the 
+subsequent further optimization of price. Maximizers derive some joy in the process 
+of finding a deal, but later the exhaustive research in making the original 
+purchase  increases a feeling of regret as reflection raises doubts regarding the 
+superiority of the purchase as new information eventually surfaces.
+</blockquote><br>
 <br>
 Just imagine this scenario involving my pseudonym, Mr Jurgwitz. Back in 2012, Mr Jurgwitz researched half a year for the best new car that maximized his utility and budget. He determined that the Ford Focus was exactly the car that checked all his exhaustive criteria (price, can fit dog?, horsepower, all-wheel drive, gas mileage, trim, interior quality,…) plus it even included a cool new transmission technology called PowerShift transmission. Jurgwitz buys the car and is immediately skeptical of his purchase, but nonetheless he is happy all of 2012. In 2013-2016, after multiple accounts of affected Ford Fiestas and Ford Foci  having crippling transmission problems, news breaks that Ford has knowingly shipped cars off the factory line with faulty transmissions. Jurgwitz realizes his car has a faulty transmission after having an accident in which his car wouldn’t shift up to a higher gear. Jurgwitz couldn’t have predicted this fiasco, yet he blames himself for his now soiled purchase. The woe of the maximizer,all that preparation and thought could not have accounted for a random event. Jurg now needs to soak up a sunk cost,  a whole other blog post can be written about sunk costs later... <br>
 <br>
