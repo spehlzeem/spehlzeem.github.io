@@ -14,7 +14,7 @@ Comparing oneself to another is the behavior most correlated with someone’s su
 <br>
 While walking around Half Moon Bay, California, an idea related to this peculiarity popped in my head. Henceforth, I purpose an idea that is an inspired synthesis influenced by Marcus Aurelius, praying to God, and Mario Kart. While listening to an episode of a podcast, [The Stoic Coffee Break](https://open.spotify.com/show/70tDlUjoCZAFqO7cnuspJW?si=Ebz-KudgTbyqCXFmhC9W2A), produced by Eric Cloward, a wonderful quote was unpacked as a lesson in the importance of gratitude. <br>
 <br>
-<blockquote>“Don’t set your mind on things you don’t possess as if they were yours, but count the blessings you actually possess and think how much you would desire them if they weren’t already yours.” – <em>Marcus Aurelius<em> </blockquote> <br>
+<blockquote>“Don’t set your mind on things you don’t possess as if they were yours, but count the blessings you actually possess and think how much you would desire them if they weren’t already yours.” – <em>Marcus Aurelius</em> </blockquote> <br>
 <br>
 Marcus Aurelius concisely provides wisdom targeted at limiting the scope of our desires. These possesions aren’t purely physical materials they can be our nascent comparisons too. By placing our energies into things we don’t have, we rob our sense of gratitude for the things we already possess. The final clause expresses a cultivation of desire for the things we already have, an act synonymous with gratitude. Related, often Stoicism stresses the foolishness of being attached to ephemeral things, for they are constantly leaving us. The final words of the quote reflect awareness of our transient ownership over things.  <br>
 <br>
