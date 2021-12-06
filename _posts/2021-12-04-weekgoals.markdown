@@ -2,9 +2,9 @@
 layout: post
 title:  "Optimistic Monday #1: New Weekly Goals"
 big_image: ""
-date:   2021-02-19 10:02:26 -0600
+date:   2021-12-04 10:02:26 -0600
 categories: misc
-tags: [quick read, s]
+tags: [quick read, OM]
 ---
 #  New Weekly Goals<br>
 
