@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "Optimistic Monday #1: New Weekly Goals"
+big_image: ""
+date:   2021-02-19 10:02:26 -0600
+categories: misc
+tags: [quick read, s]
+---
+#  New Weekly Goals<br>
+
+1. Wake up every morning at 6:00am. I have found front-loading all my ambitions in the mornings prevents me from running out of willpower in the evening. This loss of willpower is often the culprit, causing my ambitions to remain tomorrows goals and not today’s accomplishments. Waking up three hours before work starts, jumpstarts me into productive mode, enabling me to complete all the studying/exercise/reading I’d like to accomplish on top of work for that day. I have been a bit wishy-washy with my resolve, thus this week I write in stone my convictions in effort to hold me accountable… we shall see, it’s quite dark at 6:00.<!--break-->
+2. Code for fun everyday. My developing experience as a software engineer has solidified the incontrovertible truth to the statement, “you learn by doing”. Solely because I am putting in ~8 hours of software related work (coding, designing, researching, architecting yaml) I am constantly adding to my tacit knowledge. I learned computer science and theory of computation in college and was instructed to apply this knowledge to  manufactured homework problems untethered from reality; I never applied these teaching in a genuinely realistic way until I was being asked to build applications and solve real problems instead of contrived homework problems and projects. Likewise, I am learning tons of cloud related technologies at work but neglect to code up projects I naturally take a liking too. In this way, I am finding my skills to actually atrophy in some areas whereas work related categories are hypertrophying like crazy… but will I actually use Kubernetes in my weekend development, probably not. Therefore, I need to take the time to apply and build out the skills I’m interested in outside of work. This week in the morning, of course, i’ll be doing some Nodejs development. 
+3. Read with an objective. I am notoriously a book thief, by that I mean I pilfer the neighborhood’s tiny communal libraries (mailbox libraries) for anything interesting. I eventually return these books, but often unfinished. I constantly have a book that I’m “reading”, though I rarely finish the book before starting a new one that has piqued my curiosity. I want to finish books. In effort to keep me honest I will, by the end of the week, create a new sidebar link to my reading list. I will start to read ~20 pages a night to accomplish my goal of finishing a book before starting a new one. 
